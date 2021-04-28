@@ -1,0 +1,152 @@
+body{padding: 0;margin:0; text-transform: capitalize;}
+html{font-size: 16px;font-family:'Times New Roman', serif}
+h1{text-transform: uppercase;}
+body>nav {background-color: #ffcb0f; font-size: .6rem;}
+body>nav>.container{display: flex; justify-content: space-between;}
+body>nav>.container i{padding: 5px;}
+/*-------------------------/*/
+header >nav {background-color: #222533; color: #fff ;padding-bottom: 10px;}
+header >nav .container{display: flex ; justify-content: space-between; align-items: center;}
+header >nav h1 {margin-bottom: 0;}
+header >nav h1 span{color:#ffcb0f}
+header>nav >div.container>div > span{font-size: .9rem;}
+header >nav label .fas {font-size: 1.4rem;}
+header>nav ul{display: none;}
+/*-------------------------------*/
+header>div {color:#fff;background:linear-gradient(#2326338f,#23263357), url(../Task9/workers_cement_steel_building_construction_realty_720-770x433.jpg) no-repeat center; padding-top: 10px; text-align: center; background-size: cover; padding: 50px 0;}
+header >div h1:nth-of-type(2){color: #ffcb0f;}
+header >div a{text-decoration: none; color:#ffcb0f; display: inline-block; width: 50%; border: thin solid #ffcb0f ; padding: 9px 10px; margin:5px}
+/*///////////////////////////////////////*/
+section#sec1 .container{ text-align: center;}
+section#sec1 .container article >span{font-size: .8rem; font-weight: bold;}
+section#sec1 .container figure{width: 90%; margin-left: auto; margin-right: auto;}
+section#sec1 .container figure img{width: 100%; margin-bottom: -20px;}
+section#sec1 .container h1 {color:#ffcb0f; font-weight:bold;}
+section#sec1 .container article p{color:#6b6868 ;font-size: .7rem;}
+section#sec1 .container article a{ text-decoration: none ;color: #fff; background-color: #ffcb0f; border-radius: 30px; padding: 5px 20px; font-size: .7rem;}
+/*///////////////////////////////////////*/
+section#sec2 {  color: #fff;text-align: center; background: linear-gradient(#000000a1,#000000a1) ,url(../Task9/bg4.jpg) no-repeat center; padding:60px 0 30px;background-size: cover;}
+section#sec2 h1{color: #ffcb0f;}
+
+section#sec2 .row>div  { position: relative;}
+section#sec2 .row>div div.imgs{background-color:#ffcb0f; width: fit-content; margin-left: auto; margin-right: auto; border-radius: 50%; padding: 20px;position: relative; top: 35px; left: 0;}
+section#sec2 .row>div div article{  border-radius: 10px ;background-color: rgba(0, 0, 0, 0.521); padding: 50px 20px 20px;}
+section#sec2 .row>div div article span{color: #ffcb0f;} 
+/*///////////////////////////////////////*/
+section#sec3  {margin:50px 0 ;}
+section#sec3 h1:first-of-type{text-align: center; color: rgb(49, 48, 48);}
+section#sec3 figure{width: 100%; margin-right: auto; margin-left: auto; position: relative;}
+section#sec3 figure img{max-width: 100%;}
+section#sec3 figure figcaption {background-color: #07080ca2 ; position: absolute; bottom: 4px; width: 100%; padding: 15px 10px; color:#fff ;text-align: center;}
+section#sec3 article {font-size: .8rem; text-align: justify;}
+section#sec3 a {text-decoration: none ; color: #fff; background-color: #ffcb0f; border-radius: 10px; padding :10px 20px; display: inline-block ; margin: 20px 0;}
+/*///////////////////////////////////////*/
+
+section#sec4 {text-align: center; background: linear-gradient(#4e4d42d1,#4e4d42d1) ,url(../Task9/bg2.jpg) no-repeat; color:#fff; padding: 50px 0;}
+section#sec4 p{width: 70%; margin-left: auto; margin-right: auto; font-size: .7rem;}
+section#sec4  ul{display: none;}
+section#sec4 .row {display: flex; align-items: center;}
+section#sec4 .row> div {width: 48% ; padding: 0 10px; }
+section#sec4 .row> div img{width: 100%; height: 100%; margin: 0;}
+section#sec4 .row> div:nth-of-type(2) img {width: 49%; height: auto; padding: 0;}
+
+/*///////////////////////////////////////*/
+
+section#sec5{background: url(../Task9/bg3.jpg) center; background-size: cover; text-align: center; padding: 50px 0 0; border-bottom: 50px solid #646972;}
+section#sec5 figure{width:100%; margin-left: auto; margin-right: auto;}
+section#sec5 figure figcaption { background-color: #e5e5e5; padding: 20px; position: relative; margin-bottom: 30px; display: flex ;}
+section#sec5 figure figcaption { text-align: justify;}
+section#sec5 .col-12:nth-of-type(2) figure figcaption{background-color: #ffcb0f;}
+section#sec5 figure figcaption i {  display: inline-block; margin-right: 15px;}
+section#sec5 figure figcaption img{position: absolute; bottom: -11px; left: 45%; }
+section#sec5 figure>img{border-radius: 50%;}
+section#sec5 figure>p {text-transform: uppercase;}
+/*----------*/
+section#sec5 footer {background-color: #ffcb0fbb ; text-align: left; color: #646972; padding: 20px 0; margin-bottom: 0;}
+section#sec5 footer>div h4 {font-weight: normal;}
+section#sec5 footer div > form input {width:48%; border:none; padding:15px ; margin-bottom: 2px;
+border-radius: 5px; text-transform: capitalize; margin: 5px 0;}
+section#sec5 footer div > form input:nth-of-type(3){width: 70%;}
+section#sec5 footer div > form input[type=submit]{background-color: #646972; color: #fff; width: 25%;}
+/*///////////////////////////////////////*/
+footer#sec6 {background:linear-gradient(#232633e0,#232633e0),url(../Task9/bg2.jpg) no-repeat center ; color :#fff ;background-size: cover; text-align: center; padding: 40px 0;}
+footer#sec6 h2{color:#ffcb0f  ;margin:0 ;text-transform: uppercase; }
+footer#sec6 .container .row >div {margin-bottom: 20px; border-bottom: thin solid rgba(175, 172, 172, 0.555); padding-bottom: 20px;}
+footer#sec6.container .row >div  p{text-align: justify;}
+footer#sec6 .container .row >div span {color:rgb(175, 173, 173);}
+footer#sec6 .container .row div:first-of-type li{display: inline-block; list-style: none ; background-color: #ffcb0f; width:35px; height:35px ; border-radius: 50%; margin: 5px; line-height: 2.5; text-align: center; color: black;}
+/*----------*/
+footer#sec6 .container .row div:nth-of-type(2){text-align: left; }
+footer#sec6 .container .row div:nth-of-type(2) h3{text-align: center;}
+footer#sec6 .container .row div:nth-of-type(2) ul{ list-style: none;}
+footer#sec6 .container .row div:nth-of-type(2) li{display: block; margin-bottom: 18px;}
+footer#sec6 .container .row div:nth-of-type(2) li i{ margin-right: 20px;}
+/*----------*/
+
+footer#sec6  .container .row div:nth-of-type(3) span{ display:inline-block; border-radius: 50% ; padding:10px ; border: thin solid #fff ; margin-right: 10px; text-align: center;width: 35%;color: #fff; font-weight: bold; } 
+
+section#sec7 {color: #fff ; padding: 30px 0; background-color: #1a1c27; text-align: center;font-size: .7rem;}
+section#sec7  span{color: #ffcb0f; }
+
+
+/* Small devices (landscape phones, 320 and down) */
+@media (max-width: 320px) {
+body>nav>.container { flex-wrap: wrap ; justify-content: center; font-size: .5rem; }
+/*----------*/
+header >nav .container{font-size: .6rem;}
+/*-----------*/
+header>div {font-size: .7rem;}
+/*///////////////////////////////////////*/
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+ 
+
+
+} 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  header >nav label .fas{display: none;}
+  header>nav ul{display: inline-block;}
+  header >nav ul li{display: inline-block;}
+  header >nav ul li a {text-decoration: none; color:#fff; padding-right: 15px; font-size: 1.2rem}
+/*--------*/
+  header >div p{width: 50%;margin-left: auto;margin-right: auto;}
+  header >div a { width: auto;padding: 5px 10px}
+/*///////////////////////////////////////////////////////////*/
+  section#sec1 >.container {display: flex; text-align: justify; align-items: center; justify-content: space-between;}
+  section#sec1 >.container article{width: 80%; margin-right: 5%;} 
+  section#sec1 >.container figure {width: 45%;}
+  /*///////////////////////////////////////////////////////////*/
+  section#sec2 .row {padding:0 80px}
+ /*///////////////////////////////////////////////////////////*/
+  section#sec4 .row> div:nth-of-type(2) img {width: 50%;height: 49.5%;}
+  section#sec4 .row> div:nth-of-type(2) img {width: 48%; }
+  section#sec4 .row> div{height: 360px;}
+  section#sec4 ul {display: inline-block;}
+  section#sec4 ul li{display: inline-block; padding:5px 10px ; transition: .4s ease all ;}
+  section#sec4 ul li:hover {background-color: rgba(0, 0, 0, 0.747); border-radius: 20px}
+ /*///////////////////////////////////////////////////////////*/
+section#sec5 footer>div{display: flex; align-items: center; }
+section#sec5 footer>div h3 ,section#sec5 footer>div h4 {width:100% ;font-size: 2.5rem; margin:8px;}
+section#sec5 footer div >div,section#sec5 footer div > form{width: 50%;}
+ /*///////////////////////////////////////////////////////////*/
+ footer#sec6 .container .row div:nth-of-type(2){padding-left:40px}
+ footer#sec6 .container .row div:nth-of-type(2) h3{text-align: left;}
+ footer#sec6 .container .row div:nth-of-type(2) ul{ padding-left: 0;}
+
+ footer#sec6 {text-align: left;}
+
+footer#sec6 .container .row >div {margin-bottom: 0; border-bottom:none}
+ footer#sec6  .container .row div:nth-of-type(3) div{display: flex; }
+ section#sec7{font-size: 1rem;}
+}
+ /* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) {
+
+}
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

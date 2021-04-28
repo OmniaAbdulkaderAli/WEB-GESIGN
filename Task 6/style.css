@@ -1,0 +1,78 @@
+*{text-transform: capitalize;}
+body{      margin: 0;}
+.clear {clear: both;}
+.container{width: 1150px; margin-left: auto; margin-right: auto;}
+/*--------------------------------------*/
+header{background-image: url("task6/Images/header-bg.jpg"); color: white; ; background-size: cover ;
+     background-repeat: no-repeat;}
+header .filter{ height: 548px; background-color:rgb(0 0 0 / 80%);}
+header  nav { padding:5px 20px ;}
+header nav img{float: left;}
+header nav ul {float: right;}
+header nav ul li{display: inline-block}
+header nav ul a {text-transform: uppercase; text-decoration:none ;color: white; padding: 0 0 0 15px}
+header .flex{display: flex; height: 540px;margin-top: 5px;}
+header .left { padding-top: 80px; }
+header .left a{padding:8px 20px;background-color:rgb(255, 216, 43); border-radius: 2px;
+     text-decoration: none ;color: white;}
+
+header .right form{box-sizing:border-box; border: thin solid gray ;
+      width: 500px ; padding: 20px 40px 50px; background-color: rgb(14 22 51 / 60%);}
+header .right form input {width:93%; margin:6px 0; padding:10px}
+header .right form input[type=submit]{width: 100%; margin:10px 0;padding: 15px;
+      background-color:rgb(255, 216, 43); color: white;}
+/*-----------------------------------------*/
+section h1{text-align: center; margin-top: 80px ;}
+section h6 { text-align: center; color: #999;}
+section .flex{display: flex;
+     flex-wrap: wrap; 
+     justify-Content:space-evenly;} 
+section .flex>div{ display: flex;flex-wrap: wrap;  width: 30%; height:
+      200px; background-color:#e8e9f3 ;margin-bottom: 30px;
+     border-radius: 10px;box-sizing: border-box; padding: 0px 20px;} 
+     section .flex img{height:20px; margin: 20px 10px 0;}
+     section .flex p { margin-top: 0; color: #999; font-size: 0.9rem;}
+     /*------------------------------------*/
+ .details{display: flex;justify-Content:space-evenly; margin: 80px  0px 0;}
+.details img{width: 45%; height: 350px;}
+ .details div{width: 45%; align-self: center;}
+ .details div p{color:#999;font-size: .8rem;}
+ .details div a{padding:8px 20px;background-color:rgb(255, 216, 43); border-radius: 2px;
+     text-decoration: none ;color: white;}
+     /*----------------------------------*/
+     .choose{display: flex; margin: 80px 0 ;justify-Content:space-evenly}
+     .choose img{width: 45%;}
+     .choose div{width: 45%;align-self:center}
+     .choose div span {font-size: 20px;font-weight:bold;}
+     .choose div p{color: #999;}
+     .choose div ul{color: #999;list-style: none; padding-left: 0;}
+     .choose div a{padding:8px 20px;background-color:rgb(43 43 41); border-radius: 2px;
+          text-decoration: none ;color: white}
+          .cars{text-align: center;}
+      .cars ul{color: green; list-style: square;}
+     .cars ul li{display:inline-block; width: 10px; 
+          height: 10px; background-color: #999; 
+     transition-duration: 2s;}
+     .cars ul li:hover {background-color: orange;}
+     /*--------------*/
+     .support {text-align:center; background-image: url('task6/Images/callaction-bg.jpg');
+           background-repeat: no-repeat; color: white; background-size: cover; width: 100%;}
+           .support .filter{ background-color:#030313d1; height: 252px;}
+           .support .filter h1{padding-top: 80px;}
+           .support .filter p {padding:0 15px 20px; width: 900px; font-size: .8rem;color: rgb(189, 184, 184);}
+           .support .filter a{ text-decoration: none; padding:10px 20px; color: orange;
+                background-color: transparent ; 
+                border: thin solid orange;
+               }
+           /*--------------*/
+           .blog{display: flex; justify-content: space-between ;}
+           .blog figure{width:23% ; margin: 0px;}
+           .blog figure img {width: 200px; height: 150px;}
+           .blog figure button {background-color: black; color: #999; padding: 0 10px;}
+           .blog figure span{color:#999;font-size: .7rem}
+           .blog figure h4{font-size: .9rem;}
+           /*----------*/
+           footer{background-color: rgb(3, 3, 36);display: flex; justify-content: space-between;
+          height: ; margin-top: 80px;}
+          footer .container> div{width:15%;color: white;}
+          footer .container >div ul{list-style: none;padding: 0; color: #999;}

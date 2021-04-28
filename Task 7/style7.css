@@ -1,0 +1,176 @@
+body{padding: 0;margin: 0;text-transform: capitalize;}
+html{font-size: 16px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+     hr{ border:none; background-color:#e78809;
+        width: 50%; height: 3px; margin-top :50px ; margin-bottom: 50px;}
+         p {font-size: .5rem;  }
+         h2{text-transform: uppercase;}
+@media (min-width: 576px)
+     {
+         .container{width: 800px; margin-left: auto;margin-right: auto;}
+         nav{background-color: black; color: white;width: 100%;}
+         nav .container{display: flex;  align-items: center; }
+        
+         nav h1{font-size: 2rem; text-transform: uppercase;}
+         nav span{color: rgb(221, 136, 8);}
+         nav i{margin-left: auto; transition: 1s all ease}
+         nav i:hover{color:rgb(221, 136, 8);}
+         nav ul{display: none;}
+         /*---------------------------------*/ 
+         header {background: url('../Task7/images/Banner-bg.jpg') no-repeat ;
+             padding:20px ;color: white; padding-bottom: 90px; height: auto ;}
+             header h2{text-transform: uppercase;}
+             header h2:nth-child(2){color:rgb(221, 136, 8);}
+             header p{width: 80%; font-size: .6rem ; text-align: justify; margin-bottom: 50px;}
+             header button{background-color: rgb(221, 136, 8);transition: 1s all ease; 
+                background-color:transparent;border:none;font-size: .9rem;}
+             header button a{text-decoration: none; color: white; border: thin solid white; 
+            padding: 20px 40px;  text-transform: uppercase;background-color:#04040436;
+        border-radius: 4px; }
+            header button:hover{transform: scale(1.1, 1.1)} 
+            header button:hover a{ color: rgb(221, 136, 8);}
+            header figure{display: none;}
+
+            /*--------------- section about ----------------*/
+        #about {text-align: center; margin:80px }
+        
+        #about p{font-size: .6rem;color:#999; width:80%; margin-right: auto;margin-left: auto; margin-bottom: 30px;}
+        #about ul{list-style: none;padding-left: 0;}
+        #about ul li{display: inline-block;}
+        #about ul li a{text-decoration: none; color: #999 ;text-transform: uppercase; font-size: 1.4rem;
+            border:thin solid #999; padding :15px 25px; transition: 1s all ease;} 
+        #about ul li a:hover{background-color: rgb(221, 136, 8);color :white}
+        #about .details{ width:100% ; height: 250px; position: relative; margin-bottom: 50px;}
+        #about .details img {border:4px solid white ; width: 45%; margin:30px 0; 
+            position: absolute; top: 5%; left:25%; z-index: 2;}
+            #about .details img:last-child{position: absolute; top:0; left:28%  ;z-index: 1;}
+       #about span{font-size: .6rem; color:rgb(221, 136, 8);}
+       #about .flex div p:first-of-type{ color: black; margin-bottom: -5px;}
+ /*----------------------- section services -----------------*/
+
+ #services {padding: 50px 20px;text-align: center;color:white; 
+    background: url(../Task7/images/Services-bg.jpg) repeat ; margin-bottom: 0;}
+    
+#services .flex{display: flex; justify-content: space-between;}
+#services .flex > div { position:relative; width:35% ; margin-bottom: 20px;height: 330px; }
+#services .flex > div img.sec,#services .flex > div img.first{position:absolute; left:25%;top:10% ;transition: .5s ease all;}
+#services .flex > div img.sec{z-index: 1;}
+#services .flex > div img.first{z-index: 2;
+backface-visibility: hidden;}
+#services .flex div:first-child{background: url(../Task7/images/concept-bg.jpg);}
+#services .flex div:nth-child(2){background:url(../Task7/images/systam-bg.jpg);}
+#services .flex div:nth-child(3){background:url(../Task7/images/desgin-bg.jpg);}
+#services .flex div:nth-child(4){background:url(../Task7/images/Development-bg.jpg);}
+#services .flex  div:hover img{transform: rotateY(180deg);}
+/*-------------------------pricing-------------------------*/
+#pricing {text-align: center; background-color: rgb(241, 239, 239);margin-bottom: 0; padding: 50px 0;}
+#pricing p {font-size: .5rem; color: #999; margin:10px 0 40px 0 }
+#pricing .contain-flex{display: flex;justify-content: space-between; }
+#pricing .flex{display: flex; flex-direction: column; width: 30%;}
+#pricing .flex div{display: flex; height: 60px;  align-items: center;
+    justify-content: center; padding: 15px; width: 33%;}
+    #pricing .flex div img{visibility: hidden;}  
+#pricing .flex>div:first-child {width: 100%; background-color:#e78809;}
+#pricing .flex>div:nth-of-type(2){width:100%; background-color: rgb(44, 43, 43);color:#e78809;font-size: 1.5rem;}
+#pricing .flex>div:nth-of-type(3),#pricing .flex>div:nth-of-type(4),
+#pricing .flex>div:nth-of-type(5),#pricing .flex>div:nth-of-type(6){width: 100%;}
+#pricing .flex>div:last-child{width: 100%;background-color: #333;color:white}
+/*------------------------ contact -----------------*/
+#contact {text-align: center; color: white; background: url('../Task7/images/Contact-bg.jpg'); padding: 20px 0; font-size: .5rem;}
+#contact footer{background-color: black; padding: 60px; margin-bottom: 40px;}
+#contact footer form{width: 49%; margin-left: auto;margin-right: auto; margin-bottom: 20px;}
+#contact footer form input{display: block; width: 100%; padding: 20px; margin-bottom: 5px;}
+#contact footer form input[type=submit]{background-color: #e78809; width:111%;}
+
+#contact footer div{ text-align: left; margin-left: 25%;}
+
+#contact footer h3{text-transform: uppercase; color: #e78809;}
+
+#contact i{display:block; padding: 10px; padding-left: 0;}
+
+}
+
+
+@media (min-width:768px) {
+
+    #services .flex{flex-wrap: nowrap; align-items: space-between;}
+#services .flex > div img.sec, #services .flex > div img.first {left:17%}
+#services .flex > div {width: 180px;}
+
+ 
+ @media (min-width: 992px)
+ {
+     
+    nav .container{margin-right: auto; margin-left: auto; width: 1000px;}
+     nav h1{font-size: 2rem;}
+     nav .fa{display: none;}
+     
+     nav ul{margin-left:auto;display: inline-block;}
+    nav ul li {display: inline-block;}
+    nav ul li a{text-decoration: none; color: white; padding: 9px; text-transform: uppercase;transition: .9s all ease ;}
+    nav ul li a:hover { background-color:#6877a86e; border-bottom: 2px solid rgb(221, 136, 8); border-radius: 2px;}
+    header .container{margin-right: auto; margin-left: auto; width: 1000px;position:relative; }
+    header .flex{display: flex;}
+    header{ background:linear-gradient(rgb(15 5 5 / 10%),rgb(162 155 155 / 36%)), 
+        url('../Task7/images/Banner-bg.jpg') no-repeat ;
+        background-size: 100% 85%; }
+        header div{margin-bottom:3%; padding-top:2%;}
+        header figure{margin-right: auto;}     
+    header p {width: 30%;}
+    header figure{display:inline-block ; position: absolute; top: 0;
+        left: 30%;  }
+        header img{position: relative;width: 100%;height: 100%;}
+        header figure figcaption {background-color:black; width: 100%;
+             position:absolute; bottom:0 ; ; display: flex; align-items: center; box-shadow: -10px 9px 8px -5px rgba(0,0,0,0.63)
+             ;} 
+        header figure figcaption i {color:white; padding:10px}
+        header figure div:nth-of-type(2){margin-left: auto;}
+        header figure div:nth-of-type(2) h3 {margin: 0; padding-right: 10px;text-transform: uppercase;}
+header figure div:nth-of-type(2) span {color: #e78809;}
+/*--------------------------------------*/
+#about .flex{display: flex; text-align: left;}
+
+#about .details img {width: 80%; left:0}
+#about .details img:last-child{left: 3%;}
+#about ul {margin-bottom: 50px;}
+#about ul li a{font-size: 1rem;}
+#about .flex div p:first-of-type{margin-bottom:0;}
+#about p{font-size: .9rem;}
+#about span{margin-left: 49px;}
+/*------------------- */
+
+#services .flex{flex-wrap: nowrap; align-items: space-between;}
+#services .flex > div img.sec, #services .flex > div img.first {
+left:17%}
+#services .flex > div {width: 180px;}
+/*---------------pricing----------*/
+#pricing p{font-size: 1.1rem;}
+#pricing .contain-flex{display: block;}
+#pricing .flex{display: flex;flex-direction: row;width: 100%; }
+#pricing .flex div{ margin-bottom:20px; height: 60px;  align-items: center;
+    justify-content: center; padding: 15px; margin-bottom: 30px;}
+    #pricing .flex div img{visibility: visible; padding-right: 10px;} 
+#pricing .flex>div:first-child {width: 5%; background-color:#e78809;}
+#pricing .flex>div:nth-of-type(2){width:30%; background-color: rgb(44, 43, 43);color:#e78809}
+#pricing .flex>div:nth-of-type(3),#pricing .flex>div:nth-of-type(4),#pricing .flex>div:nth-of-type(5),#pricing .flex>div:nth-of-type(6){width: 30%;}
+#pricing .flex>div:last-child{width: 25%;background-color: #333;color:white}
+/*--------contact-----------*/
+
+#contact .container{margin-right: auto; margin-left: auto;}
+#contact p{font-size: .9rem;}
+
+#contact footer{background-color: black; display: flex ;align-items: center; margin-bottom: 40px; }
+#contact footer form{ width: 45%; margin-bottom: 20px; margin-left:0}
+#contact footer form input { padding: 20px; margin-bottom: 5px;}
+#contact footer form input[type=submit]{background-color: #e78809; display:inline-block; width:107.4%;}
+
+#contact footer div{ font-size: 1rem; width: 45%;margin-left: 0;}
+
+#contact footer h3{text-transform: uppercase; color: #e78809;}
+
+#contact i{display:block; padding: 10px; padding-left: 0;}
+
+
+}  /*------ end of screen------- */  
+
+ @media (min-width: 1200px) {}

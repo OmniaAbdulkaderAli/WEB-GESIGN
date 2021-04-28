@@ -1,0 +1,6 @@
+p{color: red}
+table{background-image: url(planet.png); background-repeat: no-repeat; background-position: center right; border-spacing: 40px ;text-align:center}
+table th,td{ border: 2px dotted}
+table, th,td  { border-collapse: collapse }
+table tr td:first-child, th {background-color:rgba(159 229 245 / 60%) ;width: 80px;padding: 10px 20px}
+ .inside tr > td {border: none}
